@@ -1,0 +1,36 @@
+.product_list_item__container {
+  background-color: $meli-white;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  border-bottom: 1px solid $meli-light-gray;
+  border-radius: 1px;
+
+  .product_list_item__table {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+    .product_list_item__image {
+      img {
+        width: 160px;
+        height: auto;
+      }
+    }
+
+    .product_list_item__price {
+      margin: 10px 0;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .product_list_item__table_location {
+    width: 30%;
+    span {
+      color: $meli-gray;
+    }
+  }
+}
